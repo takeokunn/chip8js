@@ -1,0 +1,17 @@
+{
+  "name": "chip8js",
+  "version": "1.0.0",
+  "description": "chip-8 emulator written in nodejs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js --rom ./roms/15PUZZLE",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "takeokunn",
+  "license": "MIT",
+  "dependencies": {
+    "iohook": "^0.6.6",
+    "kleur": "^4.1.1",
+    "minimist": "^1.2.5"
+  }
+}
