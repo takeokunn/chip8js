@@ -76,7 +76,7 @@ const prep_state_text = [
     `\t [ Z ] | [ X ] | [ C ] | [ V ]`
 ];
 
-const validateArgument = () => {
+const validate = () => {
     const argv = minimist(process.argv.slice(2));
 
     if (argv.help) {
@@ -104,4 +104,4 @@ const validateArgument = () => {
     };
 };
 
-module.exports = { validateArgument, prep_state_text };
+module.exports = { validate, prep_state_text };
