@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "takeokunn",
-  "license": "MIT",
+  "license": "GPLv3",
   "dependencies": {
     "iohook": "^0.6.6",
     "kleur": "^4.1.1",
